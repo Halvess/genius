@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "css/styles.css">
+    <title>Genius</title>
+</head>
+<body>
+    <header>
+        <h1>Genius
+        </h1>
+    </header>
+    <section>
+        <div class = "personalizar-div">
+            <button class="menu-esquerdo" id="personalizar-botao">personalizar</button>
+            <div class = "menu-personalizar" id="toggle-div">
+                <p>cor da matriz</p>
+                <div class="personalizar-align">
+                    <button class = "null-null" id = "preto"></button>
+                    <button class = "null-null" id = "branco"></button>
+                </div>
+                <p>plano de fundo</p>
+                <div class="personalizar-align">
+                    <button class = "background-change" id = "background-preto"></button>
+                    <button class = "background-change" id = "background-branco"></button> 
+                </div> 
+            </div>
+        </div>
+            <div class = "area-jogavel">
+                <div class = "botoes">
+                    <button class = "playable" id="top-left"></button>
+                    <button class = "playable" id="top-middle"></button>
+                    <button class = "playable" id="top-right"></button>
+                </div>
+                <div class = "botoes">
+                    <button class = "playable" id="middle-left"></button>
+                    <button class = "playable" id="middle-middle"></button>
+                    <button class = "playable" id="middle-right"></button>
+                </div>
+                <div class = "botoes">
+                    <button class = "playable" id="bottom-left"></button>
+                    <button class = "playable" id="bottom-middle"> </button>
+                    <button class = "playable" id="bottom-right"></button>
+                </div>
+                <div id="start-stop">
+                    <button class = "menu" id= "start">start</button>
+                    <button class = "menu" id= "stop">stop</button>
+                </div>
+                <p id="player-msg"></p>
+            </div>
+        <div class = "personalizar-div">
+            <div>
+                <button class="menu-direito" id="status-botao">status</button>
+            </div>
+            <div id = "menu-status">
+                <div>
+                    <p>Estágio</p>
+                    <h4 id="estagio">0</h4>
+                </div>
+                <div>
+                    <p>Recorde</p>
+                    <h4 id="recorde">0</h4>
+                </div>
+            </div>
+            <div class="dificuldade">
+                <button class="menu-direito" id="toggle-dificuldade">dificuldade</button>
+                <div id="visible-botao">
+                    <button class="dificuldade-botao" id ="easy">fácil</button>
+                    <button class="dificuldade-botao" id ="medium">médio</button>
+                    <button class="dificuldade-botao" id = "hard">difícil</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<script src = "scripts/main.js"></script>
+</body>
+</html>
